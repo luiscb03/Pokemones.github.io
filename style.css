@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+
+body{
+    margin: 0%;
+    background-image: url("./315_Mesa\ de\ trabajo\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-logo{
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(218, 58, 30); */
+}
+
+.navbar #botones{
+    width: 1100px;
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+
+
+.texto{
+    width: 250px;
+    height: 37px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.general{
+    height: calc(95.43vh - 37px - 140px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.general>div{
+    border: 2px solid transparent;
+    height: 400px;
+    width: 650px;
+}
+
+.imagenesPok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110px;
+    /* background-color: rgb(218, 58, 30); */
+}
+
+footer>p{
+    margin: 0%;
+    font-size: 19px;
+    color: rgb(218, 58, 30);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.informacion{
+    padding-left: 60px;
+}
+
+#nombre{
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-transform: capitalize;
+    margin: 0%;
+    margin-top: 60px;
+}
+
+.historia{
+    font-size: 17px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#mas-info{
+    height: 35px;
+    width: 170px;
+    border-radius: 17px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#mas-info:hover{
+    background-color: rgb(107, 122, 83);
+}
+
+.slider{
+    /* border: 1px solid rgb(255, 51, 0); */
+    width: 450px;
+    height: 170px;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 35, 41, .2);
+    border-radius: 7px;
+}
+
+.perfiles{
+    width: 300px;
+}
+
+/* estilos para el boton de buscar -------------------------------------- */
+.container-1 input#search{
+    width: 180px;
+    height: 35px;
+    background: #e5ece4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #000407;
+    padding-left: 45px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .container-1 .icon{
+    position: absolute;
+    top: 4%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #a6b6c5;
+  }
+
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+
+  .frm{
+      display: flex;
+  }
+
+  #subTipo{
+      margin-top: 85px;
+      margin-bottom: 0%;
+      margin-left: 12px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      height: 25px;
+      width: 110px;
+      text-transform: capitalize;
+      color: white;
+      border-radius: 28px;
+      text-align: center;
+      align-items: center;
+      background-color: #3694db;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  }
+
+  /* --------------------------------------------------------------- */
+
+  /* ---------------- Ventana de mas informacion ------------------- */
+  
+  .modal{
+      display: none;
+      width: 820px;
+      height: 400px;
+      background-color: rgba(0, 0, 0, 1);
+      color: white;
+      position: fixed;
+      border-radius: 18px;
+      padding: 45px;
+      top: 12%;
+      left: 17%;
+  }
+
+  .mostrar{
+      display: block;
+  }
+
+  #nombreInfo{
+      text-transform: capitalize;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  }
+
+  .tipo{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  }
+
+  .grid{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .detalles{
+    width: 600px;
+    height: 420px;
+    /* border: 1px solid blue; */
+  }
+
+  .canva{
+    width: 600px;
+    height: 420px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  canvas{
+      width: 500px;
+      height: 320px;
+      /* border: 1px solid red; */
+  }
+
+  button{
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+  }
